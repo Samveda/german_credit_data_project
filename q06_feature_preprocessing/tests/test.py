@@ -5,7 +5,7 @@ from inspect import getfullargspec
 path = './data/GermanData.csv'
 data=q01_load_data_and_add_column_names(path)
 data=q03_encode_features(data)
-X_train, X_test, y_train,y_test= q05_split(data)
+X_train, X_test, y_train,y_test= q05_split(data,0.3,0)
 df = q06_feature_preprocessing(X_train, X_test, y_train,y_test,0,8)
 
 
