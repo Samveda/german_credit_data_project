@@ -1,9 +1,9 @@
-import pandas as pd
 import sys,os
 sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q04_correlation_plot
-from greyatomlib.statlog_german_credit_data_project.q03_encode_features import q03_encode_features, q01_load_data_and_add_column_names
+from greyatomlib.statlog_german_credit_data_project.q03_encode_features.build import q03_encode_features
+from greyatomlib.statlog_german_credit_data_project.q01_load_data_and_add_column_names.build import q01_load_data_and_add_column_names
 from inspect import getfullargspec
 
 path = './data/GermanData.csv'
