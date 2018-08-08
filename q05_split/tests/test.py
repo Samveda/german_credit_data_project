@@ -4,7 +4,7 @@ from ..build import q05_split, q03_encode_features, q01_load_data_and_add_column
 
 from inspect import getfullargspec
 
-path = './data/GermanData.csv'
+path = "./data/GermanData.csv"
 data=q01_load_data_and_add_column_names(path)
 data=q03_encode_features(data)
 df = q05_split(data, 0.3 ,0)
