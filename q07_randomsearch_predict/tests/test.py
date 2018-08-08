@@ -1,5 +1,3 @@
-import sys,os
-sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q07_randomsearch_predict, q06_feature_preprocessing, q05_split,q03_encode_features, q01_load_data_and_add_column_names
 from inspect import getfullargspec

@@ -1,5 +1,3 @@
-import sys,os
-sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q04_correlation_plot
 from greyatomlib.statlog_german_credit_data_project.q03_encode_features.build import q03_encode_features

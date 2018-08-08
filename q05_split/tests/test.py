@@ -1,6 +1,4 @@
 import pandas as pd
-import sys,os
-sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q05_split, q03_encode_features, q01_load_data_and_add_column_names
 
